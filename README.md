@@ -34,10 +34,10 @@ The script loads the mental health conversational dataset from Kaggle, which con
 
 The provided code preprocesses the dataset, including loading the JSON data, extracting intents, creating a DataFrame, iterating over patterns and responses, filling NaN values, preparing input text for training, and saving the DataFrame to a CSV file.
 
-# Fine-tuning the Pre-trained Model
+## Fine-tuning the Pre-trained Model
 
 The main function `fine_tune` orchestrates the fine-tuning process, enabling PEFT and configuring training parameters. The script utilizes the Trainer class from Hugging Face Transformers for training.
 
-# Merging Weights & Pushing to Hugging Face
+#E Merging Weights & Pushing to Hugging Face
 
 Finally, the script merges the fine-tuned model's weights and pushes the model and tokenizer to the Hugging Face Hub for public usage.

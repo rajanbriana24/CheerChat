@@ -28,11 +28,11 @@ Functions are provided for loading a pre-trained language model from the Hugging
 
 ## Loading Dataset
 
-The script loads the mental health conversational dataset from Kaggle, which contains prompts for training the chatbot.
+The script loads the mental health conversational dataset from Kaggle (https://www.kaggle.com/datasets/elvis23/mental-health-conversational-data).
 
 ## Preprocessing Dataset
 
-The provided code preprocesses the dataset, including loading the JSON data, extracting intents, creating a DataFrame, iterating over patterns and responses, filling NaN values, preparing input text for training, and saving the DataFrame to a CSV file.
+The provided code preprocesses the dataset, including loading the JSON data, extracting intents, creating a DataFrame, iterating over patterns and responses, filling NaN values, preparing input text for training with prompts, and saving the DataFrame to a CSV file.
 
 ## Fine-tuning the Pre-trained Model
 
